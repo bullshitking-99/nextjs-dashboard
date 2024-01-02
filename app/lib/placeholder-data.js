@@ -3,7 +3,7 @@
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
-    name: 'User',
+    name: 'Lee',
     email: 'user@nextmail.com',
     password: '123456',
   },
@@ -166,7 +166,7 @@ const invoices = [
 ];
 
 const revenue = [
-  { month: 'Jan', revenue: 2000 },
+  { month: 'Jan', revenue: 999 },
   { month: 'Feb', revenue: 1800 },
   { month: 'Mar', revenue: 2200 },
   { month: 'Apr', revenue: 2500 },
