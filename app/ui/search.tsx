@@ -16,6 +16,8 @@ export default function Search({ placeholder }: { placeholder: string }) {
 
     term ? params.set('query', term) : params.delete('query');
 
+    params.set('page', '1');
+
     // 更新路由并跳转
     replace(`${pathName}?${params.toString()}`);
   }, 300);
